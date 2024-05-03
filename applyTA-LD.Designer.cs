@@ -51,7 +51,6 @@
             checkBox7 = new CheckBox();
             label10 = new Label();
             button1 = new Button();
-            label11 = new Label();
             label12 = new Label();
             panel1 = new Panel();
             button2 = new Button();
@@ -65,8 +64,11 @@
             label15 = new Label();
             textBox7 = new TextBox();
             textBox8 = new TextBox();
+            panel4 = new Panel();
+            label18 = new Label();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
+            panel4.SuspendLayout();
             SuspendLayout();
             // 
             // label_Welcome
@@ -74,7 +76,7 @@
             label_Welcome.AutoSize = true;
             label_Welcome.BackColor = Color.Transparent;
             label_Welcome.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label_Welcome.Location = new Point(428, 103);
+            label_Welcome.Location = new Point(428, 130);
             label_Welcome.Name = "label_Welcome";
             label_Welcome.Size = new Size(561, 74);
             label_Welcome.TabIndex = 1;
@@ -303,17 +305,6 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.BackColor = Color.Transparent;
-            label11.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label11.Location = new Point(27, 27);
-            label11.Name = "label11";
-            label11.Size = new Size(304, 74);
-            label11.TabIndex = 30;
-            label11.Text = "Welcome, ";
-            // 
             // label12
             // 
             label12.AutoSize = true;
@@ -468,18 +459,38 @@
             textBox8.TabIndex = 11;
             textBox8.TextChanged += textBox8_TextChanged;
             // 
+            // panel4
+            // 
+            panel4.BackColor = Color.Silver;
+            panel4.Controls.Add(label18);
+            panel4.Location = new Point(0, 0);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(1450, 118);
+            panel4.TabIndex = 37;
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.BackColor = Color.Transparent;
+            label18.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label18.Location = new Point(27, 27);
+            label18.Name = "label18";
+            label18.Size = new Size(304, 74);
+            label18.TabIndex = 0;
+            label18.Text = "Welcome, ";
+            // 
             // applyTA_LD
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(224, 224, 224);
             ClientSize = new Size(1449, 884);
+            Controls.Add(panel4);
             Controls.Add(panel3);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(panel1);
             Controls.Add(label12);
-            Controls.Add(label11);
             Controls.Add(button1);
             Controls.Add(label1);
             Controls.Add(label_Welcome);
@@ -490,6 +501,8 @@
             panel1.PerformLayout();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -519,7 +532,6 @@
         private CheckBox checkBox7;
         private Label label10;
         private Button button1;
-        private Label label11;
         private Label label12;
         private Panel panel1;
         private Button button2;
@@ -533,5 +545,7 @@
         private TextBox textBox8;
         private RichTextBox richTextBox1;
         private TextBox textBox5;
+        private Panel panel4;
+        private Label label18;
     }
 }

@@ -28,10 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label11 = new Label();
             label6 = new Label();
             label7 = new Label();
             panel1 = new Panel();
+            button3 = new Button();
+            richTextBox1 = new RichTextBox();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
@@ -40,45 +41,35 @@
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             textBox4 = new TextBox();
-            richTextBox1 = new RichTextBox();
             panel2 = new Panel();
-            label9 = new Label();
+            richTextBox3 = new RichTextBox();
+            label16 = new Label();
+            richTextBox2 = new RichTextBox();
+            button1 = new Button();
+            label15 = new Label();
+            textBox7 = new TextBox();
+            textBox6 = new TextBox();
+            label14 = new Label();
+            label13 = new Label();
             label8 = new Label();
             label10 = new Label();
             label12 = new Label();
             textBox3 = new TextBox();
             textBox5 = new TextBox();
-            label13 = new Label();
-            label14 = new Label();
-            textBox6 = new TextBox();
-            textBox7 = new TextBox();
-            label15 = new Label();
-            button1 = new Button();
-            richTextBox2 = new RichTextBox();
-            richTextBox3 = new RichTextBox();
-            label16 = new Label();
-            button3 = new Button();
+            label9 = new Label();
+            panel5 = new Panel();
+            label_Welcome = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
+            panel5.SuspendLayout();
             SuspendLayout();
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.BackColor = Color.Transparent;
-            label11.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label11.Location = new Point(27, 27);
-            label11.Name = "label11";
-            label11.Size = new Size(304, 74);
-            label11.TabIndex = 32;
-            label11.Text = "Welcome, ";
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(581, 100);
+            label6.Location = new Point(581, 130);
             label6.Name = "label6";
             label6.Size = new Size(322, 74);
             label6.TabIndex = 31;
@@ -111,6 +102,26 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(477, 408);
             panel1.TabIndex = 34;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.Gray;
+            button3.Location = new Point(169, 355);
+            button3.Name = "button3";
+            button3.Size = new Size(131, 40);
+            button3.TabIndex = 28;
+            button3.Text = "Update";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
+            // richTextBox1
+            // 
+            richTextBox1.BackColor = Color.FromArgb(224, 224, 224);
+            richTextBox1.Location = new Point(28, 288);
+            richTextBox1.Name = "richTextBox1";
+            richTextBox1.Size = new Size(400, 50);
+            richTextBox1.TabIndex = 27;
+            richTextBox1.Text = "";
             // 
             // label2
             // 
@@ -170,6 +181,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(232, 35);
             textBox1.TabIndex = 9;
+            textBox1.TextChanged += textBox1_TextChanged_1;
             // 
             // textBox2
             // 
@@ -186,15 +198,6 @@
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(232, 35);
             textBox4.TabIndex = 11;
-            // 
-            // richTextBox1
-            // 
-            richTextBox1.BackColor = Color.FromArgb(224, 224, 224);
-            richTextBox1.Location = new Point(28, 288);
-            richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(400, 50);
-            richTextBox1.TabIndex = 27;
-            richTextBox1.Text = "";
             // 
             // panel2
             // 
@@ -219,15 +222,90 @@
             panel2.Size = new Size(736, 408);
             panel2.TabIndex = 35;
             // 
-            // label9
+            // richTextBox3
             // 
-            label9.AutoSize = true;
-            label9.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label9.Location = new Point(29, 30);
-            label9.Name = "label9";
-            label9.Size = new Size(321, 32);
-            label9.TabIndex = 4;
-            label9.Text = "Previous TA/LD Experience";
+            richTextBox3.BackColor = Color.FromArgb(224, 224, 224);
+            richTextBox3.Location = new Point(388, 239);
+            richTextBox3.Name = "richTextBox3";
+            richTextBox3.Size = new Size(315, 85);
+            richTextBox3.TabIndex = 26;
+            richTextBox3.Text = "";
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label16.Location = new Point(388, 197);
+            label16.Name = "label16";
+            label16.Size = new Size(249, 32);
+            label16.TabIndex = 25;
+            label16.Text = "Certifications(if any)";
+            // 
+            // richTextBox2
+            // 
+            richTextBox2.BackColor = Color.FromArgb(224, 224, 224);
+            richTextBox2.Location = new Point(388, 91);
+            richTextBox2.Name = "richTextBox2";
+            richTextBox2.Size = new Size(315, 85);
+            richTextBox2.TabIndex = 24;
+            richTextBox2.Text = "";
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Gray;
+            button1.Location = new Point(327, 355);
+            button1.Name = "button1";
+            button1.Size = new Size(131, 40);
+            button1.TabIndex = 23;
+            button1.Text = "Save";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click_1;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label15.Location = new Point(388, 30);
+            label15.Name = "label15";
+            label15.Size = new Size(325, 32);
+            label15.TabIndex = 22;
+            label15.Text = "Other Relevant Experiences";
+            // 
+            // textBox7
+            // 
+            textBox7.BackColor = Color.FromArgb(224, 224, 224);
+            textBox7.Location = new Point(185, 285);
+            textBox7.Name = "textBox7";
+            textBox7.Size = new Size(165, 35);
+            textBox7.TabIndex = 21;
+            // 
+            // textBox6
+            // 
+            textBox6.BackColor = Color.FromArgb(224, 224, 224);
+            textBox6.Location = new Point(185, 241);
+            textBox6.Name = "textBox6";
+            textBox6.Size = new Size(165, 35);
+            textBox6.TabIndex = 20;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Segoe UI Semibold", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label14.Location = new Point(40, 285);
+            label14.Name = "label14";
+            label14.Size = new Size(126, 32);
+            label14.TabIndex = 19;
+            label14.Text = "End Date: ";
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Font = new Font("Segoe UI Semibold", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label13.Location = new Point(40, 241);
+            label13.Name = "label13";
+            label13.Size = new Size(139, 32);
+            label13.TabIndex = 18;
+            label13.Text = "Start Date: ";
             // 
             // label8
             // 
@@ -276,101 +354,35 @@
             textBox5.Size = new Size(195, 35);
             textBox5.TabIndex = 16;
             // 
-            // label13
+            // label9
             // 
-            label13.AutoSize = true;
-            label13.Font = new Font("Segoe UI Semibold", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label13.Location = new Point(40, 241);
-            label13.Name = "label13";
-            label13.Size = new Size(139, 32);
-            label13.TabIndex = 18;
-            label13.Text = "Start Date: ";
+            label9.AutoSize = true;
+            label9.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label9.Location = new Point(29, 30);
+            label9.Name = "label9";
+            label9.Size = new Size(321, 32);
+            label9.TabIndex = 4;
+            label9.Text = "Previous TA/LD Experience";
             // 
-            // label14
+            // panel5
             // 
-            label14.AutoSize = true;
-            label14.Font = new Font("Segoe UI Semibold", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label14.Location = new Point(40, 285);
-            label14.Name = "label14";
-            label14.Size = new Size(126, 32);
-            label14.TabIndex = 19;
-            label14.Text = "End Date: ";
+            panel5.BackColor = Color.Silver;
+            panel5.Controls.Add(label_Welcome);
+            panel5.Location = new Point(0, 0);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(1450, 118);
+            panel5.TabIndex = 36;
             // 
-            // textBox6
+            // label_Welcome
             // 
-            textBox6.BackColor = Color.FromArgb(224, 224, 224);
-            textBox6.Location = new Point(185, 241);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(165, 35);
-            textBox6.TabIndex = 20;
-            // 
-            // textBox7
-            // 
-            textBox7.BackColor = Color.FromArgb(224, 224, 224);
-            textBox7.Location = new Point(185, 285);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(165, 35);
-            textBox7.TabIndex = 21;
-            // 
-            // label15
-            // 
-            label15.AutoSize = true;
-            label15.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label15.Location = new Point(388, 30);
-            label15.Name = "label15";
-            label15.Size = new Size(325, 32);
-            label15.TabIndex = 22;
-            label15.Text = "Other Relevant Experiences";
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.Gray;
-            button1.Location = new Point(327, 355);
-            button1.Name = "button1";
-            button1.Size = new Size(131, 40);
-            button1.TabIndex = 23;
-            button1.Text = "Save";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click_1;
-            // 
-            // richTextBox2
-            // 
-            richTextBox2.BackColor = Color.FromArgb(224, 224, 224);
-            richTextBox2.Location = new Point(388, 91);
-            richTextBox2.Name = "richTextBox2";
-            richTextBox2.Size = new Size(315, 85);
-            richTextBox2.TabIndex = 24;
-            richTextBox2.Text = "";
-            // 
-            // richTextBox3
-            // 
-            richTextBox3.BackColor = Color.FromArgb(224, 224, 224);
-            richTextBox3.Location = new Point(388, 239);
-            richTextBox3.Name = "richTextBox3";
-            richTextBox3.Size = new Size(315, 85);
-            richTextBox3.TabIndex = 26;
-            richTextBox3.Text = "";
-            // 
-            // label16
-            // 
-            label16.AutoSize = true;
-            label16.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label16.Location = new Point(388, 197);
-            label16.Name = "label16";
-            label16.Size = new Size(249, 32);
-            label16.TabIndex = 25;
-            label16.Text = "Certifications(if any)";
-            // 
-            // button3
-            // 
-            button3.BackColor = Color.Gray;
-            button3.Location = new Point(169, 355);
-            button3.Name = "button3";
-            button3.Size = new Size(131, 40);
-            button3.TabIndex = 28;
-            button3.Text = "Update";
-            button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
+            label_Welcome.AutoSize = true;
+            label_Welcome.BackColor = Color.Transparent;
+            label_Welcome.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label_Welcome.Location = new Point(27, 27);
+            label_Welcome.Name = "label_Welcome";
+            label_Welcome.Size = new Size(304, 74);
+            label_Welcome.TabIndex = 0;
+            label_Welcome.Text = "Welcome, ";
             // 
             // editProfile
             // 
@@ -378,10 +390,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(224, 224, 224);
             ClientSize = new Size(1449, 884);
+            Controls.Add(panel5);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Controls.Add(label7);
-            Controls.Add(label11);
             Controls.Add(label6);
             Name = "editProfile";
             Text = "editProfile";
@@ -390,12 +402,13 @@
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            panel5.ResumeLayout(false);
+            panel5.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private Label label11;
         private Label label6;
         private Label label7;
         private Panel panel1;
@@ -425,5 +438,7 @@
         private RichTextBox richTextBox3;
         private Label label16;
         private Button button3;
+        private Panel panel5;
+        private Label label_Welcome;
     }
 }

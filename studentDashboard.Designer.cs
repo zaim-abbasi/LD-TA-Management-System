@@ -68,10 +68,12 @@ namespace TA_LD_Management_System
             label12 = new Label();
             label11 = new Label();
             label13 = new Label();
+            panel5 = new Panel();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
             panel4.SuspendLayout();
+            panel5.SuspendLayout();
             SuspendLayout();
             // 
             // label_Welcome
@@ -417,7 +419,7 @@ namespace TA_LD_Management_System
             // 
             label17.AutoSize = true;
             label17.Font = new Font("Segoe UI Light", 7F);
-            label17.Location = new Point(22, 175);
+            label17.Location = new Point(22, 180);
             label17.Name = "label17";
             label17.Size = new Size(128, 23);
             label17.TabIndex = 11;
@@ -426,18 +428,18 @@ namespace TA_LD_Management_System
             // label16
             // 
             label16.AutoSize = true;
-            label16.Font = new Font("Segoe UI", 8F);
-            label16.Location = new Point(25, 140);
+            label16.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label16.Location = new Point(22, 140);
             label16.Name = "label16";
-            label16.Size = new Size(692, 25);
+            label16.Size = new Size(777, 30);
             label16.TabIndex = 10;
-            label16.Text = "Great job on our assignment. Make sure to add comments in your code next time";
+            label16.Text = "Great job on your assignment. Make sure to add comments in your code next time";
             // 
             // label15
             // 
             label15.AutoSize = true;
             label15.Font = new Font("Segoe UI Light", 7F);
-            label15.Location = new Point(22, 100);
+            label15.Location = new Point(25, 110);
             label15.Name = "label15";
             label15.Size = new Size(152, 23);
             label15.TabIndex = 9;
@@ -456,11 +458,11 @@ namespace TA_LD_Management_System
             // button4
             // 
             button4.BackColor = Color.Gray;
-            button4.Location = new Point(1036, 162);
+            button4.Location = new Point(1030, 167);
             button4.Name = "button4";
             button4.Size = new Size(295, 41);
             button4.TabIndex = 5;
-            button4.Text = "View Detailed Feedback";
+            button4.Text = "View all Feedbacks";
             button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
@@ -492,18 +494,27 @@ namespace TA_LD_Management_System
             label13.Text = "Feedback Section";
             label13.Click += label13_Click;
             // 
+            // panel5
+            // 
+            panel5.BackColor = Color.Silver;
+            panel5.Controls.Add(label_Welcome);
+            panel5.Location = new Point(0, 0);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(1450, 118);
+            panel5.TabIndex = 6;
+            // 
             // studentDashboard
             // 
             AutoScaleDimensions = new SizeF(13F, 31F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(224, 224, 224);
             ClientSize = new Size(1449, 884);
+            Controls.Add(panel5);
             Controls.Add(panel4);
             Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Controls.Add(label1);
-            Controls.Add(label_Welcome);
             Font = new Font("Segoe UI", 9.857143F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Name = "studentDashboard";
             Text = "Form1";
@@ -516,6 +527,8 @@ namespace TA_LD_Management_System
             panel3.PerformLayout();
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
+            panel5.ResumeLayout(false);
+            panel5.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -570,5 +583,6 @@ namespace TA_LD_Management_System
         private Label label16;
         private Label label15;
         private Label label17;
+        private Panel panel5;
     }
 }

@@ -123,7 +123,7 @@ namespace TA_LD_Management_System
             if (textBox3.Text == "" || textBox5.Text == "" || textBox6.Text == "" || textBox7.Text == "")
             {
                 // if all fields are empty, dont show any message
-                if(textBox3.Text == "" && textBox5.Text == "" && textBox6.Text == "" && textBox7.Text == "")
+                if (textBox3.Text == "" && textBox5.Text == "" && textBox6.Text == "" && textBox7.Text == "")
                 {
                     MessageBox.Show("Nothing to Save");
                 }
@@ -184,6 +184,11 @@ namespace TA_LD_Management_System
         }
 
         private void editProfile_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
         {
 
         }

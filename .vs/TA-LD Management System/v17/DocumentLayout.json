@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\University\\Semester 4\\DataBase\\Project\\TA-LD Management System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F3029CDD-D151-4B08-817E-199D176F7220}|TA-LD Management System.csproj|d:\\university\\semester 4\\database\\project\\ta-ld management system\\editprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3029CDD-D151-4B08-817E-199D176F7220}|TA-LD Management System.csproj|solutionrelative:editprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3029CDD-D151-4B08-817E-199D176F7220}|TA-LD Management System.csproj|d:\\university\\semester 4\\database\\project\\ta-ld management system\\editprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F3029CDD-D151-4B08-817E-199D176F7220}|TA-LD Management System.csproj|solutionrelative:editprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F3029CDD-D151-4B08-817E-199D176F7220}|TA-LD Management System.csproj|d:\\university\\semester 4\\database\\project\\ta-ld management system\\studentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F3029CDD-D151-4B08-817E-199D176F7220}|TA-LD Management System.csproj|solutionrelative:studentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,26 +19,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "editProfile.cs",
-              "DocumentMoniker": "D:\\University\\Semester 4\\DataBase\\Project\\TA-LD Management System\\editProfile.cs",
-              "RelativeDocumentMoniker": "editProfile.cs",
-              "ToolTip": "D:\\University\\Semester 4\\DataBase\\Project\\TA-LD Management System\\editProfile.cs",
-              "RelativeToolTip": "editProfile.cs",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAgwIEAAAAUAAAA",
+              "Title": "studentDashboard.cs [Design]",
+              "DocumentMoniker": "D:\\University\\Semester 4\\DataBase\\Project\\TA-LD Management System\\studentDashboard.cs",
+              "RelativeDocumentMoniker": "studentDashboard.cs",
+              "ToolTip": "D:\\University\\Semester 4\\DataBase\\Project\\TA-LD Management System\\studentDashboard.cs [Design]",
+              "RelativeToolTip": "studentDashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T13:49:11.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "editProfile.cs [Design]",
-              "DocumentMoniker": "D:\\University\\Semester 4\\DataBase\\Project\\TA-LD Management System\\editProfile.cs",
-              "RelativeDocumentMoniker": "editProfile.cs",
-              "ToolTip": "D:\\University\\Semester 4\\DataBase\\Project\\TA-LD Management System\\editProfile.cs [Design]",
-              "RelativeToolTip": "editProfile.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T13:43:00.626Z",
+              "WhenOpened": "2024-05-03T19:54:00.687Z",
               "EditorCaption": " [Design]"
             }
           ]

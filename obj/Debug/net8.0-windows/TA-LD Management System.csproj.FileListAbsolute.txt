@@ -17,3 +17,5 @@ D:\University\Semester 4\DataBase\Project\TA-LD Management System\obj\Debug\net8
 D:\University\Semester 4\DataBase\Project\TA-LD Management System\obj\Debug\net8.0-windows\TA_LD_Management_System.studentDashboard.resources
 D:\University\Semester 4\DataBase\Project\TA-LD Management System\obj\Debug\net8.0-windows\TA_LD_Management_System.applyTA_LD.resources
 D:\University\Semester 4\DataBase\Project\TA-LD Management System\obj\Debug\net8.0-windows\TA_LD_Management_System.Properties.Resources.resources
+D:\University\Semester 4\DataBase\Project\TA-LD Management System\obj\Debug\net8.0-windows\TA-LD Management System.sourcelink.json
+D:\University\Semester 4\DataBase\Project\TA-LD Management System\obj\Debug\net8.0-windows\TA_LD_Management_System.FeedbackSection.resources

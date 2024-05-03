@@ -166,6 +166,10 @@ namespace TA_LD_Management_System
 
         private void button4_Click(object sender, EventArgs e)
         {
+            // navigate to feedback section
+            this.Hide();
+            FeedbackSection feedbackSection = new FeedbackSection();
+            feedbackSection.Show();
 
         }
     }
