@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\University\\Semester 4\\DataBase\\Project\\TA-LD Management System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3029CDD-D151-4B08-817E-199D176F7220}|TA-LD Management System.csproj|d:\\university\\semester 4\\database\\project\\ta-ld management system\\editprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3029CDD-D151-4B08-817E-199D176F7220}|TA-LD Management System.csproj|solutionrelative:editprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3029CDD-D151-4B08-817E-199D176F7220}|TA-LD Management System.csproj|d:\\university\\semester 4\\database\\project\\ta-ld management system\\editprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F3029CDD-D151-4B08-817E-199D176F7220}|TA-LD Management System.csproj|solutionrelative:editprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "editProfile.cs",
+              "DocumentMoniker": "D:\\University\\Semester 4\\DataBase\\Project\\TA-LD Management System\\editProfile.cs",
+              "RelativeDocumentMoniker": "editProfile.cs",
+              "ToolTip": "D:\\University\\Semester 4\\DataBase\\Project\\TA-LD Management System\\editProfile.cs",
+              "RelativeToolTip": "editProfile.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAgwIEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T13:49:11.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "editProfile.cs [Design]",
+              "DocumentMoniker": "D:\\University\\Semester 4\\DataBase\\Project\\TA-LD Management System\\editProfile.cs",
+              "RelativeDocumentMoniker": "editProfile.cs",
+              "ToolTip": "D:\\University\\Semester 4\\DataBase\\Project\\TA-LD Management System\\editProfile.cs [Design]",
+              "RelativeToolTip": "editProfile.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T13:43:00.626Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TA-LD Management System/1.0.0": {
+        "runtime": {
+          "TA-LD Management System.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TA-LD Management System/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

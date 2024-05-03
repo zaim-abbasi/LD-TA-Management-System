@@ -1,0 +1,19 @@
+D:\University\Semester 4\DataBase\Project\TA-LD Management System\bin\Debug\net8.0-windows\TA-LD Management System.exe
+D:\University\Semester 4\DataBase\Project\TA-LD Management System\bin\Debug\net8.0-windows\TA-LD Management System.deps.json
+D:\University\Semester 4\DataBase\Project\TA-LD Management System\bin\Debug\net8.0-windows\TA-LD Management System.runtimeconfig.json
+D:\University\Semester 4\DataBase\Project\TA-LD Management System\bin\Debug\net8.0-windows\TA-LD Management System.dll
+D:\University\Semester 4\DataBase\Project\TA-LD Management System\bin\Debug\net8.0-windows\TA-LD Management System.pdb
+D:\University\Semester 4\DataBase\Project\TA-LD Management System\obj\Debug\net8.0-windows\TA-LD Management System.csproj.GenerateResource.cache
+D:\University\Semester 4\DataBase\Project\TA-LD Management System\obj\Debug\net8.0-windows\TA-LD Management System.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Semester 4\DataBase\Project\TA-LD Management System\obj\Debug\net8.0-windows\TA-LD Management System.AssemblyInfoInputs.cache
+D:\University\Semester 4\DataBase\Project\TA-LD Management System\obj\Debug\net8.0-windows\TA-LD Management System.AssemblyInfo.cs
+D:\University\Semester 4\DataBase\Project\TA-LD Management System\obj\Debug\net8.0-windows\TA-LD Management System.csproj.CoreCompileInputs.cache
+D:\University\Semester 4\DataBase\Project\TA-LD Management System\obj\Debug\net8.0-windows\TA-LD Management System.dll
+D:\University\Semester 4\DataBase\Project\TA-LD Management System\obj\Debug\net8.0-windows\refint\TA-LD Management System.dll
+D:\University\Semester 4\DataBase\Project\TA-LD Management System\obj\Debug\net8.0-windows\TA-LD Management System.pdb
+D:\University\Semester 4\DataBase\Project\TA-LD Management System\obj\Debug\net8.0-windows\TA-LD Management System.genruntimeconfig.cache
+D:\University\Semester 4\DataBase\Project\TA-LD Management System\obj\Debug\net8.0-windows\ref\TA-LD Management System.dll
+D:\University\Semester 4\DataBase\Project\TA-LD Management System\obj\Debug\net8.0-windows\TA_LD_Management_System.editProfile.resources
+D:\University\Semester 4\DataBase\Project\TA-LD Management System\obj\Debug\net8.0-windows\TA_LD_Management_System.studentDashboard.resources
+D:\University\Semester 4\DataBase\Project\TA-LD Management System\obj\Debug\net8.0-windows\TA_LD_Management_System.applyTA_LD.resources
+D:\University\Semester 4\DataBase\Project\TA-LD Management System\obj\Debug\net8.0-windows\TA_LD_Management_System.Properties.Resources.resources
