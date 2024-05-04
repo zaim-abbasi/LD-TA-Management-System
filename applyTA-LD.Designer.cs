@@ -66,6 +66,8 @@
             textBox8 = new TextBox();
             panel4 = new Panel();
             label18 = new Label();
+            label11 = new Label();
+            textBox10 = new TextBox();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
             panel4.SuspendLayout();
@@ -288,7 +290,7 @@
             // 
             label10.AutoSize = true;
             label10.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label10.Location = new Point(28, 243);
+            label10.Location = new Point(28, 241);
             label10.Name = "label10";
             label10.Size = new Size(299, 32);
             label10.TabIndex = 25;
@@ -360,6 +362,8 @@
             // panel3
             // 
             panel3.BackColor = Color.Silver;
+            panel3.Controls.Add(textBox10);
+            panel3.Controls.Add(label11);
             panel3.Controls.Add(textBox5);
             panel3.Controls.Add(richTextBox1);
             panel3.Controls.Add(label9);
@@ -395,9 +399,9 @@
             // richTextBox1
             // 
             richTextBox1.BackColor = Color.FromArgb(224, 224, 224);
-            richTextBox1.Location = new Point(28, 291);
+            richTextBox1.Location = new Point(28, 287);
             richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(403, 90);
+            richTextBox1.Size = new Size(403, 94);
             richTextBox1.TabIndex = 26;
             richTextBox1.Text = "";
             // 
@@ -437,9 +441,9 @@
             label15.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold);
             label15.Location = new Point(28, 194);
             label15.Name = "label15";
-            label15.Size = new Size(112, 32);
+            label15.Size = new Size(182, 32);
             label15.TabIndex = 6;
-            label15.Text = "Section: ";
+            label15.Text = "Course Grade: ";
             // 
             // textBox7
             // 
@@ -453,9 +457,9 @@
             // textBox8
             // 
             textBox8.BackColor = Color.FromArgb(224, 224, 224);
-            textBox8.Location = new Point(178, 194);
+            textBox8.Location = new Point(210, 194);
             textBox8.Name = "textBox8";
-            textBox8.Size = new Size(253, 35);
+            textBox8.Size = new Size(40, 35);
             textBox8.TabIndex = 11;
             textBox8.TextChanged += textBox8_TextChanged;
             // 
@@ -478,6 +482,24 @@
             label18.Size = new Size(304, 74);
             label18.TabIndex = 0;
             label18.Text = "Welcome, ";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold);
+            label11.Location = new Point(251, 194);
+            label11.Name = "label11";
+            label11.Size = new Size(143, 32);
+            label11.TabIndex = 28;
+            label11.Text = "Lab Grade: ";
+            // 
+            // textBox10
+            // 
+            textBox10.BackColor = Color.FromArgb(224, 224, 224);
+            textBox10.Location = new Point(389, 194);
+            textBox10.Name = "textBox10";
+            textBox10.Size = new Size(40, 35);
+            textBox10.TabIndex = 30;
             // 
             // applyTA_LD
             // 
@@ -547,5 +569,7 @@
         private TextBox textBox5;
         private Panel panel4;
         private Label label18;
+        private TextBox textBox10;
+        private Label label11;
     }
 }

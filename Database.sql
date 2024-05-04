@@ -42,7 +42,23 @@ INSERT INTO Student (Student_id, Name, Email, Phone, Address, Department, Sectio
 (11, 'Zaim Abbasi', 'zaim@gmail.com', '123-456-7890', '789 Elm Street', 'Engineering', 1, '123');
 */
 
-Select * FROM Student;
+									    	-- Application Form Table Creation
+CREATE TABLE ApplicationForm (
+    application_id INT PRIMARY KEY IDENTITY,
+    student_id INT,
+    Name VARCHAR(255) NOT NULL,
+    Department VARCHAR(100) NOT NULL,
+    CGPA DECIMAL(3, 2) NOT NULL,
+    course_id INT NOT NULL,
+    position VARCHAR(2) NOT NULL,
+    Lab_grade DECIMAL(3, 2),
+    course_grade DECIMAL(3, 2) NOT NULL,
+    pastExperience TEXT,
+    FOREIGN KEY (student_id) REFERENCES Student(student_id)
+);
+
+SELECT * FROM ApplicationForm;
+
 
 
 

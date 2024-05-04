@@ -46,6 +46,7 @@ namespace TA_LD_Management_System
 
                         if (reader.Read())
                         {
+                            label_Welcome.Text = "Welcome " + reader["Name"].ToString();
                             textBox1.Text = reader["Name"].ToString();
                             textBox2.Text = reader["Password"].ToString();
                             textBox4.Text = reader["Phone"].ToString();
@@ -171,38 +172,14 @@ namespace TA_LD_Management_System
         private void button1_Click_1(object sender, EventArgs e)
         {
             // if all the fields are filled, show a success message, if any of the field is empty in textBox3.Text, textBox5.Text,textBox6.Text or textBox7.Text show an error message to fill all the fields
-            if (textBox3.Text == "" || textBox5.Text == "" || textBox6.Text == "" || textBox7.Text == "")
+            if (!string.IsNullOrEmpty(textBox3.Text) && !string.IsNullOrEmpty(textBox5.Text) && !string.IsNullOrEmpty(textBox6.Text) && !string.IsNullOrEmpty(textBox7.Text))
             {
-                // if all fields are empty, dont show any message
-                if (textBox3.Text == "" && textBox5.Text == "" && textBox6.Text == "" && textBox7.Text == "")
-                {
-                    MessageBox.Show("Nothing to Save");
-                }
-                else
-                {
-                    // if any of the fields are empty, show an error message
-                    MessageBox.Show("Please fill all the fields.");
-                }
+                MessageBox.Show("Success");
             }
             else
             {
-                // if all the fields are filled, show a success message
-                // give a prompt that are you sure to save the changes
-                DialogResult dialogResult = MessageBox.Show("Are you sure you want to save the changes?", "Save Changes", MessageBoxButtons.YesNo);
-                if (dialogResult == DialogResult.Yes)
-                {
-                    // if yes, close this form and show the student dashboard form
-                    this.Hide();
-                    studentDashboard studentDashboard = new studentDashboard();
-                    studentDashboard.Show();
-
-                }
-                else if (dialogResult == DialogResult.No)
-                {
-                    // if no, then do nothing
-                }
+                MessageBox.Show("Please fill all the fields.");
             }
-
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -292,6 +269,11 @@ namespace TA_LD_Management_System
         }
 
         private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_Welcome_Click(object sender, EventArgs e)
         {
 
         }

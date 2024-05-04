@@ -7,7 +7,6 @@ namespace TA_LD_Management_System
         ///  Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-
         /// <summary>
         ///  Clean up any resources being used.
         /// </summary>
@@ -41,12 +40,12 @@ namespace TA_LD_Management_System
             label5 = new Label();
             label2 = new Label();
             panel2 = new Panel();
+            button1 = new Button();
             label34 = new Label();
             label35 = new Label();
             label14 = new Label();
             label31 = new Label();
             label23 = new Label();
-            button3 = new Button();
             label8 = new Label();
             label3 = new Label();
             panel3 = new Panel();
@@ -200,18 +199,30 @@ namespace TA_LD_Management_System
             // panel2
             // 
             panel2.BackColor = Color.Silver;
+            panel2.Controls.Add(button1);
             panel2.Controls.Add(label34);
             panel2.Controls.Add(label35);
             panel2.Controls.Add(label14);
             panel2.Controls.Add(label31);
             panel2.Controls.Add(label23);
-            panel2.Controls.Add(button3);
             panel2.Controls.Add(label8);
             panel2.Controls.Add(label3);
             panel2.Location = new Point(523, 223);
             panel2.Name = "panel2";
             panel2.Size = new Size(389, 293);
             panel2.TabIndex = 1;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Gray;
+            button1.ForeColor = Color.Black;
+            button1.Location = new Point(44, 231);
+            button1.Name = "button1";
+            button1.Size = new Size(282, 41);
+            button1.TabIndex = 8;
+            button1.Text = "Apply for TA";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // label34
             // 
@@ -260,17 +271,6 @@ namespace TA_LD_Management_System
             label23.TabIndex = 8;
             label23.Text = "status name";
             label23.Click += label23_Click;
-            // 
-            // button3
-            // 
-            button3.BackColor = Color.Gray;
-            button3.Location = new Point(51, 231);
-            button3.Name = "button3";
-            button3.Size = new Size(282, 41);
-            button3.TabIndex = 6;
-            button3.Text = "Apply to be a TA/LD";
-            button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
             // 
             // label8
             // 
@@ -535,11 +535,9 @@ namespace TA_LD_Management_System
 
         private void button3_Click(object sender, EventArgs e)
         {
-            applyTA_LD applyTA_LD = new applyTA_LD();
-            applyTA_LD.Show();
+            
 
-            // hide the current form
-            this.Hide();
+            
         }
 
         #endregion
@@ -556,7 +554,6 @@ namespace TA_LD_Management_System
         private Label label3;
         private Label label4;
         private Button btn_editProfile;
-        private Button button3;
         private Label label8;
         private Panel panel4;
         private Label label13;
@@ -584,5 +581,6 @@ namespace TA_LD_Management_System
         private Label label15;
         private Label label17;
         private Panel panel5;
+        private Button button1;
     }
 }

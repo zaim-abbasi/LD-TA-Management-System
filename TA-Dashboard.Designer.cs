@@ -42,6 +42,8 @@
             label5 = new Label();
             label3 = new Label();
             panel2 = new Panel();
+            label11 = new Label();
+            label12 = new Label();
             label34 = new Label();
             label35 = new Label();
             label14 = new Label();
@@ -50,6 +52,7 @@
             label8 = new Label();
             label4 = new Label();
             panel3 = new Panel();
+            button1 = new Button();
             label9 = new Label();
             label28 = new Label();
             label24 = new Label();
@@ -57,9 +60,6 @@
             label27 = new Label();
             label26 = new Label();
             label10 = new Label();
-            label11 = new Label();
-            label12 = new Label();
-            button1 = new Button();
             panel5.SuspendLayout();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
@@ -161,6 +161,7 @@
             btn_editProfile.TabIndex = 4;
             btn_editProfile.Text = "Edit Profile";
             btn_editProfile.UseVisualStyleBackColor = false;
+            btn_editProfile.Click += btn_editProfile_Click;
             // 
             // label7
             // 
@@ -219,6 +220,25 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(389, 293);
             panel2.TabIndex = 11;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(152, 230);
+            label11.Name = "label11";
+            label11.Size = new Size(115, 32);
+            label11.TabIndex = 14;
+            label11.Text = "4 months";
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label12.Location = new Point(25, 229);
+            label12.Name = "label12";
+            label12.Size = new Size(130, 32);
+            label12.TabIndex = 13;
+            label12.Text = "Duration: ";
             // 
             // label34
             // 
@@ -305,6 +325,17 @@
             panel3.Size = new Size(389, 293);
             panel3.TabIndex = 12;
             // 
+            // button1
+            // 
+            button1.BackColor = Color.Gray;
+            button1.ForeColor = Color.Black;
+            button1.Location = new Point(47, 229);
+            button1.Name = "button1";
+            button1.Size = new Size(284, 41);
+            button1.TabIndex = 8;
+            button1.Text = "Manage Scedules";
+            button1.UseVisualStyleBackColor = false;
+            // 
             // label9
             // 
             label9.AutoSize = true;
@@ -372,36 +403,6 @@
             label10.Size = new Size(238, 32);
             label10.TabIndex = 2;
             label10.Text = "Upcoming Scedules";
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.Location = new Point(152, 230);
-            label11.Name = "label11";
-            label11.Size = new Size(115, 32);
-            label11.TabIndex = 14;
-            label11.Text = "4 months";
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label12.Location = new Point(25, 229);
-            label12.Name = "label12";
-            label12.Size = new Size(130, 32);
-            label12.TabIndex = 13;
-            label12.Text = "Duration: ";
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.Gray;
-            button1.ForeColor = Color.Black;
-            button1.Location = new Point(47, 229);
-            button1.Name = "button1";
-            button1.Size = new Size(284, 41);
-            button1.TabIndex = 8;
-            button1.Text = "Manage Scedules";
-            button1.UseVisualStyleBackColor = false;
             // 
             // TA_Dashboard
             // 

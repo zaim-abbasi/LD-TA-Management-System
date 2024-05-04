@@ -15,8 +15,22 @@ namespace TA_LD_Management_System
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string email = textBox1.Text.Trim();
+            string email = textBox1.Text;
             string password = textBox2.Text;
+            
+            // for testing purposes
+            if (email == "" && password == "")
+            {
+                MessageBox.Show("Login Successful");
+
+                // Hide the current loginPage
+                this.Hide();
+
+                // Create an instance of studentDashboard form and pass the email
+                studentDashboard studentDashboardForm = new studentDashboard("zaim@gmail.com"); // Assuming textBox1 contains the email
+                studentDashboardForm.Show();
+                return;
+            }
 
             if (IsValidEmail(email))
             {

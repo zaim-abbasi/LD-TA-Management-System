@@ -16,5 +16,10 @@ namespace TA_LD_Management_System
         {
             InitializeComponent();
         }
+
+        private void btn_editProfile_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

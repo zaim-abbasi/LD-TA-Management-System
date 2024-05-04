@@ -1,4 +1,5 @@
 using Microsoft.Data.SqlClient;
+using Microsoft.Identity.Client;
 
 namespace TA_LD_Management_System
 {
@@ -100,7 +101,14 @@ namespace TA_LD_Management_System
             // edit profile button
             editProfile editProfile = new editProfile(loggedInEmail);
             editProfile.Show();
+        }
 
+        private void Label3_Click(object sender, EventArgs e)
+        {
+            // hide this form
+            this.Hide();
+            applyTA_LD applyTA_LD = new applyTA_LD(loggedInEmail);
+            applyTA_LD.Show();
         }
 
         private void label9_Click(object sender, EventArgs e)
@@ -196,6 +204,15 @@ namespace TA_LD_Management_System
             FeedbackSection feedbackSection = new FeedbackSection();
             feedbackSection.Show();
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // hide the current form
+            this.Hide();
+
+            applyTA_LD applyTA_LD = new applyTA_LD(loggedInEmail);
+            applyTA_LD.Show();
         }
     }
 }

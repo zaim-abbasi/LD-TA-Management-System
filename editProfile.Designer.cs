@@ -385,6 +385,7 @@
             label_Welcome.Size = new Size(304, 74);
             label_Welcome.TabIndex = 0;
             label_Welcome.Text = "Welcome, ";
+            label_Welcome.Click += label_Welcome_Click;
             // 
             // editProfile
             // 

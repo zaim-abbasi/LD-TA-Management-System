@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TA-LD Management System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e47b0e1a6d616a18e7a817063eea3866ce07edbc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92b118a04e9e6b48935e3021cb60c84a7f68e9cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("TA-LD Management System")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TA-LD Management System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
