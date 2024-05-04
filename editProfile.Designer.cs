@@ -150,9 +150,9 @@
             label4.Font = new Font("Segoe UI", 9.857143F, FontStyle.Bold);
             label4.Location = new Point(28, 144);
             label4.Name = "label4";
-            label4.Size = new Size(90, 32);
+            label4.Size = new Size(136, 32);
             label4.TabIndex = 5;
-            label4.Text = "Email: ";
+            label4.Text = "Password: ";
             // 
             // label5
             // 

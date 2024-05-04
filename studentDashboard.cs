@@ -65,7 +65,7 @@ namespace TA_LD_Management_System
             }
 
             // For Welcome section
-            label_Welcome.Text = "Welcome, " + studentName;
+            label_Welcome.Text = "Welcome " + studentName;
             label_StudentName.Text = studentName;
 
             // For Profile section
@@ -98,7 +98,7 @@ namespace TA_LD_Management_System
             // hide this form
             this.Hide();
             // edit profile button
-            editProfile editProfile = new editProfile();
+            editProfile editProfile = new editProfile(loggedInEmail);
             editProfile.Show();
 
         }
