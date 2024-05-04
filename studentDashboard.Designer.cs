@@ -147,9 +147,9 @@ namespace TA_LD_Management_System
             // 
             btn_editProfile.BackColor = Color.Gray;
             btn_editProfile.ForeColor = Color.Black;
-            btn_editProfile.Location = new Point(132, 231);
+            btn_editProfile.Location = new Point(38, 231);
             btn_editProfile.Name = "btn_editProfile";
-            btn_editProfile.Size = new Size(142, 41);
+            btn_editProfile.Size = new Size(307, 41);
             btn_editProfile.TabIndex = 4;
             btn_editProfile.Text = "Edit Profile";
             btn_editProfile.UseVisualStyleBackColor = false;
@@ -264,9 +264,9 @@ namespace TA_LD_Management_System
             // button3
             // 
             button3.BackColor = Color.Gray;
-            button3.Location = new Point(59, 231);
+            button3.Location = new Point(51, 231);
             button3.Name = "button3";
-            button3.Size = new Size(252, 41);
+            button3.Size = new Size(282, 41);
             button3.TabIndex = 6;
             button3.Text = "Apply to be a TA/LD";
             button3.UseVisualStyleBackColor = false;

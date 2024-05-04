@@ -1,7 +1,17 @@
+using Microsoft.Data.SqlClient;
+
 namespace TA_LD_Management_System
 {
     public partial class studentDashboard : Form
     {
+        private string connectionString = "Data Source=DESKTOP-591GTQC\\SQLEXPRESS;Initial Catalog=DB_Final_Project;Integrated Security=True;TrustServerCertificate=True";
+        private string loggedInEmail; // Variable to store the logged-in student's email
+
+        public studentDashboard(string email)
+        {
+            InitializeComponent();
+            loggedInEmail = email; // Set the loggedInEmail variable to the provided email
+        }
         public studentDashboard()
         {
             InitializeComponent();
@@ -13,58 +23,73 @@ namespace TA_LD_Management_System
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // For Welcome waghera
-            label_Welcome.Text = "";
-            label_StudentName.Text = "";
-            string studentName = "Zaim Abbasi";
+            // Initialize variables
+            string studentName = "";
+            string studentID = "";
+            string studentEmail = "";
+            string courseName = "";
+            string assignmentID = "";
+            string date = "";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                string query = "SELECT Name, Email, Student_id FROM Student WHERE Email = @Email";
+
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@Email", loggedInEmail);
+
+                    try
+                    {
+                        connection.Open();
+                        SqlDataReader reader = command.ExecuteReader();
+
+                        if (reader.Read())
+                        {
+                            studentName = reader["Name"].ToString();
+                            studentID = reader["Student_id"].ToString();
+                            studentEmail = reader["Email"].ToString();
+                        }
+
+                        reader.Close();
+                    }
+                    catch (SqlException ex)
+                    {
+                        MessageBox.Show("An SQL error occurred: " + ex.Message);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("An error occurred: " + ex.Message);
+                    }
+                }
+            }
+
+            // For Welcome section
+            label_Welcome.Text = "Welcome, " + studentName;
             label_StudentName.Text = studentName;
-            label_Welcome.Text += "Welcome, " + studentName;
 
             // For Profile section
-            label21.Text = "";
-            label22.Text = "";
-            label_StudentName.Text = "";
-            label21.Text = "22I-2462";
-            label22.Text = "zaim.k.abbasi@gmail.com";
+            label21.Text = studentID;
+            label22.Text = studentEmail;
 
             // For Application Status
-            label23.Text = "";
-            label14.Text = "";
-            label34.Text = "";
             label23.Text = "Pending";
             label14.Text = "Lab Demonstrator";
             label34.Text = "10-02-2024";
 
-
-            // For Demo Scedule
-            label26.Text = "";
-            label27.Text = "";
-            label28.Text = "";
-            label33.Text = "";
+            // For Demo Schedule
             label26.Text = "10-02-24 10:00 AM";
             label27.Text = "Data Structures";
             label28.Text = "Dr. Ali Zaidi";
             label33.Text = "Zeeshan Ali";
 
-            // feedback section
-            label10.Text = "";
-            label15.Text = "";
-            label16.Text = "";
-            label17.Text = "";
-            String courseName = "Data Structures";
-            String assignmentID = "DS-01";
+            // Feedback section
             label10.Text = courseName + " - " + assignmentID;
-            String date = "10-02-2024";
-            label15.Text = "Recieved on: " + date;
+            label15.Text = "Received on: " + date;
             label16.Text = "Assignment was good. Keep it up!";
             label17.Text = " -TA Zeeshan Ali";
-
-
-
-
-
-
         }
+
 
 
 

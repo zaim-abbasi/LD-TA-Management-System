@@ -106,9 +106,10 @@
             // button3
             // 
             button3.BackColor = Color.Gray;
-            button3.Location = new Point(169, 355);
+            button3.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.Location = new Point(50, 344);
             button3.Name = "button3";
-            button3.Size = new Size(131, 40);
+            button3.Size = new Size(364, 51);
             button3.TabIndex = 28;
             button3.Text = "Update";
             button3.UseVisualStyleBackColor = false;
@@ -253,9 +254,10 @@
             // button1
             // 
             button1.BackColor = Color.Gray;
-            button1.Location = new Point(327, 355);
+            button1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Location = new Point(115, 330);
             button1.Name = "button1";
-            button1.Size = new Size(131, 40);
+            button1.Size = new Size(469, 65);
             button1.TabIndex = 23;
             button1.Text = "Save";
             button1.UseVisualStyleBackColor = false;

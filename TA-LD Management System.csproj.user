@@ -7,10 +7,22 @@
     <Compile Update="editProfile.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="editScedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FeedbackSection.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="loginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="manageScedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="studentDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TA-Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

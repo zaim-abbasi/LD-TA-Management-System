@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\University\\Semester 4\\DataBase\\Project\\TA-LD Management System\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F3029CDD-D151-4B08-817E-199D176F7220}|TA-LD Management System.csproj|d:\\university\\semester 4\\database\\project\\ta-ld management system\\studentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3029CDD-D151-4B08-817E-199D176F7220}|TA-LD Management System.csproj|solutionrelative:studentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F3029CDD-D151-4B08-817E-199D176F7220}|TA-LD Management System.csproj|d:\\university\\semester 4\\database\\project\\ta-ld management system\\studentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F3029CDD-D151-4B08-817E-199D176F7220}|TA-LD Management System.csproj|solutionrelative:studentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -14,18 +18,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "studentDashboard.cs",
+              "DocumentMoniker": "D:\\University\\Semester 4\\DataBase\\Project\\TA-LD Management System\\studentDashboard.cs",
+              "RelativeDocumentMoniker": "studentDashboard.cs",
+              "ToolTip": "D:\\University\\Semester 4\\DataBase\\Project\\TA-LD Management System\\studentDashboard.cs",
+              "RelativeToolTip": "studentDashboard.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwB0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T11:59:10.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "studentDashboard.cs [Design]",
               "DocumentMoniker": "D:\\University\\Semester 4\\DataBase\\Project\\TA-LD Management System\\studentDashboard.cs",
               "RelativeDocumentMoniker": "studentDashboard.cs",
               "ToolTip": "D:\\University\\Semester 4\\DataBase\\Project\\TA-LD Management System\\studentDashboard.cs [Design]",
               "RelativeToolTip": "studentDashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T19:54:00.687Z",
+              "WhenOpened": "2024-05-04T11:59:01.441Z",
               "EditorCaption": " [Design]"
             }
           ]
